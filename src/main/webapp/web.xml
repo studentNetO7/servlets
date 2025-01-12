@@ -8,14 +8,14 @@
     <!-- Определение сервлета -->
     <servlet>
         <servlet-name>main</servlet-name>
-        <servlet-class>org.example.servlet.MainServlet</servlet-class>
+        <servlet-class>org.example.servlets.MainServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
 
     <!-- Привязка к URL -->
     <servlet-mapping>
         <servlet-name>main</servlet-name>
-        <url-pattern>/</url-pattern>
+        <url-pattern>/api/</url-pattern>
     </servlet-mapping>
 </web-app>
 
