@@ -8,13 +8,17 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.Reader;
 import org.example.exception.NotFoundException;
-import java.util.List;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+import java.util.List;
+@Component
 public class PostController {
     public static final String APPLICATION_JSON = "application/json";
     private final PostService service;
     private final Gson gson;
 
+    @Autowired
     public PostController(PostService service) {
         this.service = service;
         this.gson = new Gson();  // Инициализация Gson один раз

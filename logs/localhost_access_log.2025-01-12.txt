@@ -27,3 +27,6 @@
 0:0:0:0:0:0:0:1 - - [12/Jan/2025:20:54:23 +0000] "GET /servlets/api/posts/1 HTTP/1.1" 404 803
 0:0:0:0:0:0:0:1 - - [12/Jan/2025:20:59:51 +0000] "GET /servlets/api/posts/1 HTTP/1.1" 404 803
 0:0:0:0:0:0:0:1 - - [12/Jan/2025:20:59:54 +0000] "GET /servlets/api/posts/1 HTTP/1.1" 404 803
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:21:08:10 +0000] "GET /servlets/api/posts HTTP/1.1" 404 797
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:21:08:11 +0000] "GET /servlets/api/posts HTTP/1.1" 404 797
+0:0:0:0:0:0:0:1 - - [12/Jan/2025:21:08:25 +0000] "GET /servlets/api/posts/1 HTTP/1.1" 404 803
