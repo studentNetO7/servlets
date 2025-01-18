@@ -1,8 +1,10 @@
 package org.example.servlet;
 
+import org.example.config.AppConfig;
 import org.example.controller.PostController;
 import org.example.repository.PostRepository;
 import org.example.service.PostService;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -13,10 +15,13 @@ public class MainServlet extends HttpServlet {
 
     @Override
     public void init() {
-        final var repository = new PostRepository();
-        final var service = new PostService(repository);
-        controller = new PostController(service);
+        // Создаем Spring контекст, указывая конфигурационный класс
+        var context = new AnnotationConfigApplicationContext(AppConfig.class);
+
+        // Получаем бин PostController из контекста
+        controller = context.getBean(PostController.class);
     }
+
 
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp) {

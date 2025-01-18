@@ -1,0 +1,42 @@
+18-Jan-2025 22:22:55.243 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/9.0.98
+18-Jan-2025 22:22:55.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 19:50:29 UTC
+18-Jan-2025 22:22:55.249 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  9.0.98.0
+18-Jan-2025 22:22:55.260 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+18-Jan-2025 22:22:55.261 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             10.0
+18-Jan-2025 22:22:55.264 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           amd64
+18-Jan-2025 22:22:55.265 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\Ольга\.jdks\openjdk-23.0.1
+18-Jan-2025 22:22:55.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            23.0.1+11-39
+18-Jan-2025 22:22:55.266 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+18-Jan-2025 22:22:55.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\Ольга\IdeaProjects\servlets
+18-Jan-2025 22:22:55.267 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Program Files\apache-tomcat-9.0.98
+18-Jan-2025 22:22:55.284 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+18-Jan-2025 22:22:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+18-Jan-2025 22:22:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+18-Jan-2025 22:22:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+18-Jan-2025 22:22:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+18-Jan-2025 22:22:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Program Files\apache-tomcat-9.0.98
+18-Jan-2025 22:22:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\Ольга\IdeaProjects\servlets
+18-Jan-2025 22:22:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\Ольга\IdeaProjects\servlets\temp
+18-Jan-2025 22:22:55.285 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\Ольга\IdeaProjects\servlets\conf\logging.properties
+18-Jan-2025 22:22:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+18-Jan-2025 22:22:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Program Files\GIGA IDE\GIGA IDE Community Edition 2024.3\lib\idea_rt.jar=64956:C:\Program Files\GIGA IDE\GIGA IDE Community Edition 2024.3\bin
+18-Jan-2025 22:22:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+18-Jan-2025 22:22:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+18-Jan-2025 22:22:55.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+18-Jan-2025 22:22:55.290 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.3.1] using APR version [1.7.4].
+18-Jan-2025 22:22:55.290 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [true].
+18-Jan-2025 22:22:55.290 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+18-Jan-2025 22:22:55.297 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+18-Jan-2025 22:22:55.628 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+18-Jan-2025 22:22:55.644 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [733] milliseconds
+18-Jan-2025 22:22:55.685 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+18-Jan-2025 22:22:55.685 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.98]
+18-Jan-2025 22:22:55.693 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\Ольга\IdeaProjects\servlets\conf\Catalina\localhost\ROOT.xml]
+18-Jan-2025 22:22:56.774 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+18-Jan-2025 22:22:56.820 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\Ольга\IdeaProjects\servlets\conf\Catalina\localhost\ROOT.xml] has finished in [1 124] ms
+18-Jan-2025 22:22:56.823 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+18-Jan-2025 22:22:56.843 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1198] milliseconds
+18-Jan-2025 22:23:01.180 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+18-Jan-2025 22:23:01.185 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+18-Jan-2025 22:23:01.194 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+18-Jan-2025 22:23:01.198 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
